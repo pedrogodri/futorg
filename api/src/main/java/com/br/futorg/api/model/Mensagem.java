@@ -1,4 +1,4 @@
-package com.br.futorg.api.models;
+package com.br.futorg.api.model;
 
 import org.springframework.stereotype.Component;
 
@@ -8,6 +8,6 @@ import lombok.Setter;
 @Component
 @Getter
 @Setter
-public class Message {
-    public String message;
+public class Mensagem {
+    private String mensagem;
 }
